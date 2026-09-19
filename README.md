@@ -11,12 +11,12 @@ Proyek ini dikembangkan sebagai portofolio teknis dan media edukasi inovatif. Tu
 1. [Fitur Utama](#-fitur-utama)
 2. [Kamus Kosakata Sintaks](#-kamus-kosakata-sintaks)
 3. [Panduan Lengkap Pengguna (User)](#-panduan-lengkap-pengguna-user)
-   - [Instalasi Ekstensi VS Code](#1-instalasi-ekstensi-vs-code-vsix)
-   - [Cara Menulis dan Menjalankan Kode](#2-cara-menulis-dan-menjalankan-kode)
-4. [Panduan Lengkap Developer (Kontributor)](#-panduan-lengkap-developer-kontributor)
-   - [Kloning dan Struktur Direktori](#1-kloning-dan-struktur-direktori)
-   - [Cara Build Ulang Ekstensi](#2-cara-build-ulang-ekstensi)
-5. [Contoh Program](#-contoh-program-komprehensif)
+   - [1. Instalasi Ekstensi VS Code (.vsix)](#1-instalasi-ekstensi-vs-code-vsix)
+   - [2. Cara Menulis dan Menjalankan Kode](#2-cara-menulis-dan-menjalankan-kode)
+4. [Panduan Lengkap Developer (Kontributor)](#️-panduan-lengkap-developer-kontributor)
+   - [1. Kloning dan Struktur Direktori](#1-kloning-dan-struktur-direktori)
+   - [2. Cara Build Ulang Ekstensi](#2-cara-build-ulang-ekstensi)
+5. [Contoh Program Komprehensif](#-contoh-program-komprehensif)
 6. [Lisensi](#-lisensi)
 
 ---
@@ -51,25 +51,22 @@ Untuk menjembatani logika Python standar ke dalam Baso Plembang, proyek ini meme
 
 Bagian ini ditujukan bagi pengguna yang hanya ingin **memakai**, **menulis kode**, dan **menjalankan program** tanpa memodifikasi kode sumber mesin (_backend_).
 
-### 1. Instalasi Ekstensi VS Code (`.vsix`)
-
-Langkah ini sangat penting agar kodemu berwarna dan terformat dengan rapi.
-
-1. Unduh file instalasi ekstensi bernama **`baso-plembang-syntax-1.0.0.vsix`** yang tersedia di folder `vscode-Extension/` atau melalui halaman _Releases_ di repositori ini.
-2. Buka aplikasi **Visual Studio Code (VS Code)** di komputermu.
-3. Buka menu **Extensions** yang berada di panel sebelah kiri (atau gunakan _shortcut_ `Ctrl+Shift+X`).
-4. Pada bagian atas panel Extensions, klik ikon **titik tiga (...)** yang bertuliskan _Views and More Actions_.
-5. Pilih opsi **Install from VSIX...** dari menu tarik-turun (_dropdown_).
-6. Temukan dan pilih file `baso-plembang-syntax-1.0.0.vsix` yang baru saja kamu unduh, lalu klik tombol **Install**.
-7. Notifikasi sukses akan muncul di pojok kanan bawah. Ekstensi siap digunakan.
+### 1. Instalasi Ekstensi VS Code (.vsix)
+Langkah ini sangat penting agar kodemu berwarna dan terformat dengan rapi di dalam editor.
+1. Masuk ke halaman **Releases** di repositori GitHub ini (menu ada di bilah sebelah kanan).
+2. Unduh file instalasi ekstensi bernama **`baso-plembang-syntax-1.0.0.vsix`**.
+3. Buka aplikasi **Visual Studio Code (VS Code)** di komputermu.
+4. Buka menu **Extensions** yang berada di panel sebelah kiri (atau gunakan _shortcut_ `Ctrl+Shift+X`).
+5. Pada bagian atas panel Extensions, klik ikon **titik tiga (...)** yang bertuliskan _Views and More Actions_.
+6. Pilih opsi **Install from VSIX...** dari menu tarik-turun (_dropdown_).
+7. Temukan dan pilih file `baso-plembang-syntax-1.0.0.vsix` yang baru saja kamu unduh, lalu klik tombol **Install**.
+8. Notifikasi sukses akan muncul di pojok kanan bawah. Ekstensi resmi siap digunakan.
 
 ### 2. Cara Menulis dan Menjalankan Kode
-
 1. Di dalam VS Code, buat file baru dan simpan dengan akhiran **`.plg`** (contoh: `programku.plg`).
 2. Pastikan indikator bahasa di pojok kanan bawah layar VS Code sudah menunjukkan tulisan **Baso Plembang** (bukan _Plain Text_). Jika masih _Plain Text_, klik tulisan tersebut dan ketik pencarian "Baso Plembang".
-3. Tulis kode programmu (silakan lihat bab [Contoh Program](#-contoh-program-komprehensif) sebagai referensi).
-4. Untuk mengeksekusi kode tersebut, buka Terminal di dalam folder tempat penyimpanan kodemu.
-5. Jalankan perintah eksekutor (pastikan `plembang.exe` berada di lokasi yang sama atau telah didaftarkan di _Environment Variables_):
+3. Tulis kode programmu (silakan lihat bab Contoh Program di bawah sebagai referensi).
+4. Untuk mengeksekusi kode tersebut, unduh file **`plembang.exe`** dari halaman *Releases*.
+5. Buka Terminal komputermu di dalam folder tempat penyimpanan kodemu, lalu jalankan perintah:
    ```bash
    plembang.exe programku.plg
-   ```
