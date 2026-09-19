@@ -76,29 +76,36 @@ Pemetaan kata kunci dirancang agar sesederhana mungkin tanpa menghilangkan esens
 
 ## 5. Panduan Pengguna (Instalasi & Penggunaan)
 
-Jika Anda adalah pengguna (*end-user*) yang hanya ingin mencoba menulis dan mengeksekusi program dengan bahasa ini, silakan ikuti petunjuk berikut:
+Untuk pengguna (*end-user*) dan ingin mencoba menjalankan program menggunakan Baso Plembang ini, tinggal ikuti petunjuk dari nol di bawah ini:
 
-### Langkah A: Instalasi Ekstensi VS Code (.vsix)
-Langkah ini diwajibkan agar teks program Anda memiliki warna cerah (tidak _plain text_) dan mempermudah pembacaan kode.
-1. Kunjungi tab **Releases** di repositori GitHub ini (panel kanan).
-2. Unduh file **`baso-plembang-syntax-1.0.0.vsix`**.
-3. Buka aplikasi **Visual Studio Code**.
-4. Buka menu navigasi **Extensions** (atau tekan pintasan `Ctrl + Shift + X`).
-5. Klik ikon **titik tiga (...)** di pojok kanan atas menu Extensions tersebut.
-6. Pilih opsi **"Install from VSIX..."** dari _dropdown_ yang muncul.
-7. Pilih file ekstensi yang baru saja diunduh, dan tunggu notifikasi sukses.
+### Langkah A: Pasang "Baju Warna-Warni" (Instalasi Ekstensi VS Code)
+Langkah pertama ini wajib dilakukan supaya teks kodingan nanti ada warnanya dan jauh lebih gampang dibaca.
 
-### Langkah B: Menulis dan Menjalankan Program
-1. Unduh file eksekutor utama bernama **`plembang.exe`** dari tab **Releases**.
-2. Letakkan `plembang.exe` di folder kerja atau proyek Anda.
-3. Buka VS Code, buat file baru, dan simpan dengan nama **`karyaku.plg`**.
-4. Tulis program Anda. Pastikan di pojok kanan bawah VS Code indikator bahasanya bertuliskan "Baso Plembang".
-5. Simpan file (`Ctrl + S`).
-6. Buka Terminal di VS Code (`Ctrl + \``).
-7. Jalankan program dengan perintah berikut di terminal:
+1. Kunjungi tab **Releases** di halaman GitHub ini (biasanya ada di panel sebelah kanan layar dekstop).
+2. Cari dan unduh (*download*) file yang bernama **`baso-plembang-syntax-1.0.0.vsix`**.
+3. Buka aplikasi **Visual Studio Code (VS Code)** di dekstop.
+4. Di deretan menu sebelah kiri layar, klik menu **Extensions** (cari ikon bentuk kotak-kotak kubus). Kalau mau jalur cepat, tekan saja tombol `Ctrl + Shift + X` bersamaan di *keyboard*.
+5. Coba perhatikan di pojok kanan atas menu Extensions yang baru terbuka tadi, ada ikon **titik tiga (...)**. Klik ikon tersebut.
+6. Lalu muncul daftar pilihan (*dropdown*), pilih yang bertuliskan **"Install from VSIX..."**.
+7. Akan muncul jendela kecil untuk mencari file. Cari dan pilih file ekstensi `.vsix` yang baru saja diunduh di langkah ke-2 tadi. 
+8. Klik *Install* dan tunggu sebentar sampai muncul notifikasi sukses di pojok kanan bawah layar.
+
+### Langkah B: Mulai Menulis dan Jalankan Program
+Sekarang "baju"-nya sudah siap, saatnya kita tes mesinnya.
+
+1. Kembali lagi ke tab **Releases** di GitHub tadi. Kali ini, unduh file eksekutor utamanya yang bernama **`plembang.exe`**.
+2. Buat satu folder khusus di komputer (bebas di mana saja) untuk proyek ini, lalu letakkan/pindahkan file `plembang.exe` tadi **langsung ke dalam folder** tersebut.
+3. Buka lagi VS Code. Buat file baru (*New File*), lalu simpan dengan nama **`namafilekamu.plg`** di dalam folder yang sama dengan letak `plembang.exe` tadi. (Penting: belakangnya harus `.plg` ya!).
+4. Silakan tulis program atau kodingan pertamamu di dalam file itu. 
+5. **Perhatian:** Lirik ke bawah layar VS Code. Pastikan indikator bahasanya sudah bertuliskan **"Baso Plembang"**. Kalau belum, klik tulisan di situ dan ketik manual "Baso Plembang".
+6. Jangan lupa disimpan! Tekan `Ctrl + S` di *keyboard*.
+7. Sekarang kita buka kotak Terminal di dalam VS Code. Caranya mudah, tekan aja tombol `Ctrl + \`` (tombol *backtick*, biasanya letaknya di sebelah kiri angka 1).
+8. Di kotak terminal hitam yang muncul di bawah layar, ketik ini untuk menjalankan programmu:
    ```bash
    .\plembang.exe karyaku.plg
-
+   ```
+9. Tekan **Enter**, dan program Baso Plembang buatanmu akan langsung jalan di layar.
+    
 ---
 
 ## 6. Panduan Developer (Kloning & Build)
