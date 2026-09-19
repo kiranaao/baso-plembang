@@ -8,7 +8,7 @@ dari Baso Palembang ke Bahasa Python.
 KEYWORDS: dict[str, str] = {
     # Percabangan (Control Flow)
     "kalu": "if",
-    "kalu_bae": "elif",
+    "men": "elif",
     "daknyo": "else",
 
     # Perulangan (Looping)
