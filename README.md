@@ -36,7 +36,7 @@ Untuk menjembatani logika Python standar ke dalam Baso Plembang, proyek ini meme
 | Fungsi / Logika Python | Sintaks Baso Plembang | Keterangan Tambahan                                         |
 | :--------------------- | :-------------------- | :---------------------------------------------------------- |
 | `print()`              | `toleske()`           | Mencetak teks atau variabel ke layar terminal.              |
-| `input()`              | `kendak_uong()`       | Meminta masukan data dari pengguna sistem.                  |
+| `input()`              | `masukke()`           | Meminta masukan data dari pengguna sistem.                  |
 | `int()`                | `angko()`             | Mengonversi nilai atau input teks menjadi angka bulat.      |
 | `def`                  | `fungsi`              | Mendeklarasikan sebuah fungsi baru.                         |
 | `return`               | `balekke`             | Mengembalikan nilai dari sebuah fungsi.                     |
