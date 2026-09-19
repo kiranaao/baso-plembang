@@ -64,7 +64,7 @@ Pemetaan kata kunci dirancang agar sesederhana mungkin tanpa menghilangkan esens
 | **I/O** | `input(...)` | `masukke(...)` | Menahan eksekusi program untuk meminta masukan pengguna. |
 | **Tipe Data** | `int(...)` | `angko(...)` | Melakukan _casting_ tipe data _string_ menjadi bilangan bulat. |
 | **Kondisional** | `if ... :` | `kalu ... :` | Pintu gerbang utama untuk percabangan logika. |
-| **Kondisional** | `elif ... :` | `men ... :` | Kondisi alternatif bersyarat (opsional). |
+| **Kondisional** | `elif ... :` | `kalu_bae ... :` | Kondisi alternatif bersyarat (opsional). |
 | **Kondisional** | `else:` | `daknyo:` | Percabangan penutup (nilai bawaan jika logika atas salah). |
 | **Boolean** | `True` | `iyo` | Nilai kebenaran logika mutlak (1). |
 | **Boolean** | `False` | `dak` | Nilai kesalahan logika mutlak (0). |
