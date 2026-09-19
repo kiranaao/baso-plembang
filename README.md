@@ -67,7 +67,7 @@ Pemetaan kata kunci dirancang agar sesederhana mungkin tanpa menghilangkan esens
 | **Kondisional** | `elif ... :` | `men ... :` | Kondisi alternatif bersyarat (opsional). |
 | **Kondisional** | `else:` | `daknyo:` | Percabangan penutup (nilai bawaan jika logika atas salah). |
 | **Boolean** | `True` | `iyo` | Nilai kebenaran logika mutlak (1). |
-| **Boolean** | `False` | `dak` atau `saro`| Nilai kesalahan logika mutlak (0). |
+| **Boolean** | `False` | `dak` | Nilai kesalahan logika mutlak (0). |
 | **Fungsional** | `def ... :` | `fungsi ... :` | Mendeklarasikan blok instruksi algoritma (fungsi). |
 | **Fungsional** | `return` | `balekke` | Mengembalikan nilai hasil proses dari dalam sebuah fungsi. |
 | **Perulangan** | `for x in range(y):` | `tiap x didalem urutan(y):`| Perulangan iterasif dengan batas rentang indeks matematis. |
