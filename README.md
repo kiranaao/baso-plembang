@@ -43,7 +43,7 @@ Untuk menjembatani logika Python standar ke dalam Baso Plembang, proyek ini meme
 | `if`                   | `kalu`                | Blok percabangan kondisi logika.                            |
 | `else:`                | `daknyo:`             | Kondisi alternatif jika percabangan `kalu` tidak terpenuhi. |
 | `True`                 | `iyo`                 | Nilai _boolean_ benar.                                      |
-| `False`                | `saro` / `dak`        | Nilai _boolean_ salah.                                      |
+| `False`                | `dak`                 | Nilai _boolean_ salah.                                      |
 
 ---
 
