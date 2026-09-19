@@ -102,7 +102,7 @@ Sekarang "baju"-nya sudah siap, saatnya kita tes mesinnya.
 7. Sekarang kita buka kotak Terminal di dalam VS Code. Caranya mudah, tekan aja tombol `Ctrl + \`` (tombol *backtick*, biasanya letaknya di sebelah kiri angka 1).
 8. Di kotak terminal hitam yang muncul di bawah layar, ketik ini untuk menjalankan programmu:
    ```bash
-   .\plembang.exe karyaku.plg
+   .\plembang.exe namafilekamu.plg
    ```
 9. Tekan **Enter**, dan program Baso Plembang buatanmu akan langsung jalan di layar.
     
