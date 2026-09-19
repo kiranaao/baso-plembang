@@ -1,0 +1,28 @@
+{
+  "name": "baso-plembang-syntax",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.0.0"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "plembang",
+        "aliases": [
+          "Plembang",
+          "plembang"
+        ],
+        "extensions": [
+          ".plg"
+        ]
+      }
+    ],
+    "grammars": [
+      {
+        "language": "plembang",
+        "scopeName": "source.plembang",
+        "path": "./.vscode/syntaxes/plembang.tmLanguage.json"
+      }
+    ]
+  }
+}

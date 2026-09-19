@@ -1,0 +1,35 @@
+{
+  "name": "baso-plembang-syntax",
+  "displayName": "Baso Plembang Syntax",
+  "description": "Ekstensi pewarna sintaks bahasa pemrograman Baso Plembang",
+  "version": "1.0.0",
+  "publisher": "portofolio",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "plembang",
+        "aliases": [
+          "Baso Plembang",
+          "plembang"
+        ],
+        "extensions": [
+          ".plg"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "plembang",
+        "scopeName": "source.plg",
+        "path": "./syntaxes/plembang.tmLanguage.json"
+      }
+    ]
+  }
+}

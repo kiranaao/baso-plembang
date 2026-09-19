@@ -1,0 +1,27 @@
+toleske("nak ngetes bahaso Palembang")
+lemak = iyo
+saro = dak
+
+fungsi cek_angko(a):
+    a = angko(a)
+    kalu a % 2 == 0:
+        balekke "Angko Genap"
+    daknyo:
+        balekke "Angko Ganjil"
+
+kendak_uong = masukke("Aku nak ngecek angko cubo kau masukkela angko berapo kendak kau: ")
+hasil = cek_angko(kendak_uong)
+toleske("Hasil cek angko kau tadi: ", hasil)
+
+toleske("\nPayo belajar ngitung 1 sampe 3:")
+tiap i didalem urutan(1, 4):
+    toleske("Etongan ke-", i)
+
+toleske("\nTes ngitung mundur:")
+x = 10
+selamo x > 0:
+    toleske(x)
+    kalu x == 1:
+        toleske("Yey pacak!")
+        berenti
+    x = x - 1

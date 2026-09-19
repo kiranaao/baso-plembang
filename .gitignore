@@ -1,0 +1,59 @@
+# --------------------------------
+# BASO PLEMBANG - .GITIGNORE
+# --------------------------------
+
+# 1. Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 2. Build, Distribution, & Paket (Karena pakai setup.py)
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+.installed.cfg
+
+# 3. Virtual Environments (Environment Lokal)
+venv/
+.venv/
+env/
+.env
+ENV/
+
+# 4. VS Code & IDE (Konfigurasi lokal editor)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 5. Linter, Type Checker, & Testing (Persiapan kalau nanti pakai Ruff/Mypy/Pytest)
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+.tox/
+.coverage
+htmlcov/
+coverage.xml
+
+# 6. OS Generated Files (Sampah sistem operasi)
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 7. Log & File Sementara Proyek
+*.log
+temp_*.plg
